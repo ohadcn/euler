@@ -6,7 +6,7 @@ def say(seq, times = 1):
     zero=ord('0')
     rep = 1
     bef = seq[0]
-    for i in xrange(1, len(seq)):
+    for i in range(1, len(seq)):
         if seq[i] == bef:
             rep+=1
         else:
